@@ -3,7 +3,7 @@ This is the dockerized [zk-web](https://github.com/noteax/zk-web)application - w
 
 # Supported tags and respective `Dockerfile` links
 
-* `1.1.0`, `latest` [(1.3.1/Dockerfile)](https://github.com/noteax/zk-web-docker/blob/master/1.1.0/Dockerfile)
+* `1.1.0`, `latest` [(1.1.0/Dockerfile)](https://github.com/noteax/zk-web-docker/blob/master/1.1.0/Dockerfile)
 
 # What is zk-web?
 
@@ -15,6 +15,6 @@ There is no dependencies for image, just run as is.
 
 Configuration parameters are:
  - ZKWEB_PORT=8080
- - ZKWEB_USER=admin:hello
+ - ZKWEB_CREDENTIALS=admin:hello
  - ZKWEB_DEFAULT_NODE=localhost:2181/default-node
  
