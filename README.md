@@ -14,7 +14,7 @@ zk-web is a Web UI of Zookeeper, just making it easier to use. Sometimes I reall
 There is no dependencies for image, just run as is.
 
 Configuration parameters are:
- - PORT=8080
- - USER=admin:hello
- - DEFAULT_NODE=localhost:2181/default-node
+ - ZKWEB_PORT=8080
+ - ZKWEB_USER=admin:hello
+ - ZKWEB_DEFAULT_NODE=localhost:2181/default-node
  
