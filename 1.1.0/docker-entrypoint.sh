@@ -3,7 +3,7 @@
 set -e
 
 # Generate the config only if it doesn't exist
-mkdir conf
+mkdir -p conf
 if [ ! -f "conf/zk-web-conf.clj" ]; then
     CONFIG="conf/zk-web-conf.clj"
 
